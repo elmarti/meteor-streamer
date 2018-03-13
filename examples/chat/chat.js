@@ -1,7 +1,10 @@
+import { Meteor } from 'meteor/meteor';
+import { Template } from 'meteor/templating';
+
 const streamer = new Meteor.Streamer('chat');
 
 if(Meteor.isClient) {
-	const messages = new Mongo.Collection(null);
+	const messages = new Meteor.Collection(null);
 
 	window.sendMessage = function(text) {
 		streamer.emit('message', {
