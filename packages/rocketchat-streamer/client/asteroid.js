@@ -1,4 +1,4 @@
-import { streamerClient } from './client/client';
+import { streamerClient } from './client';
 
 const AsteroidMeteorStreamerMixin = () => {
     return {
