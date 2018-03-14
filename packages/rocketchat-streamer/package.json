@@ -1,0 +1,11 @@
+{
+  "name": "meteor-streamer",
+  "version": "0.6.2",
+  "description": "2 way communication over DDP with better performance.",
+  "main": "asteroid.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

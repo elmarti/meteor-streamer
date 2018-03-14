@@ -13,7 +13,7 @@ Package.on_use(function(api) {
 
 	api.addFiles('lib/ev.js');
 
-	api.addFiles('client/client.js', 'client');
+	api.addFiles('meteor.js', 'client');
 
 	api.addFiles('server/server.js', 'server');
 
